@@ -1,0 +1,17 @@
+{
+  "name": "normaldistribution",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node kmom03.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "gaussian": "^1.1.0",
+    "mocha": "^5.2.0"
+  }
+}

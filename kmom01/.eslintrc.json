@@ -1,0 +1,19 @@
+{
+  "env": {
+    "commonjs": true,
+    "es6": true,
+    "node": true
+  },
+  "extends": "plugin:mocha/recommended",
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "rules": {
+    "mocha/max-top-level-suites": ["warn", { "limit": 5 }]
+  },
+  "plugins": ["mocha"]
+}
